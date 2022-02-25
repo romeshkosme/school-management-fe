@@ -1,0 +1,7 @@
+export const ON_INPUT_CHANGE = "ON_INPUT_CHANGE";
+export const ADD_CLASS = "ADD_CLASS";
+export const ADD_CLASS_SUCCESS = "ADD_CLASS_SUCCESS";
+export const GET_CLASS = "GET_CLASS";
+export const GET_CLASS_SUCCESS = "GET_CLASS_SUCCESS";
+export const GET_CLASSES = "GET_CLASSES";
+export const GET_CLASSES_SUCCESS = "GET_CLASSES_SUCCESS";

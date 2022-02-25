@@ -1,0 +1,57 @@
+.header {
+    /* padding: 10px; */
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+.header-content {
+    display: flex;
+}
+.header-content-menu, .header-content-right-menu {
+    display: flex;
+    align-items: center;
+}
+.header-content-logo img {
+    height: 3em;
+}
+.header-content-menu-items {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: -webkit-fill-available;
+}
+.header-content-menu-items li {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.header-content-menu-items li:first-child {
+    margin-left: 20px;
+}
+.header-content-right-menu {
+    margin-left: auto;
+}
+.header-content-right-menu li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.header-content-menu-items li.manage {
+    height: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+}
+.subMenu.manage_subMenu {
+    /* border: 1px solid black!important; */
+    position: absolute;
+    top: 48px;
+}
+.subMenu.manage_subMenu li{
+    margin: 0px
+}
+
+/* Student List Component */
+.student-list-btn {
+    margin-left: auto;
+}
+/* CREATE STUDENT */
+.input-field-group {
+    display: flex;
+    flex-direction: column;
+}

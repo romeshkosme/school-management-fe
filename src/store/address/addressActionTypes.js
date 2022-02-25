@@ -1,0 +1,3 @@
+export const ON_INPUT_CHANGE = "ON_INPUT_CHANGE";
+export const GET_ADDRESS = "GET_ADDRESS";
+export const GET_ADDRESS_SUCCESS = "GET_ADDRESS_SUCCESS";

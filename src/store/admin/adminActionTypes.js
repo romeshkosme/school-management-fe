@@ -1,0 +1,5 @@
+export const ON_INPUT_CHANGE = "ON_INPUT_CHANGE";
+export const GET_ADMINS = "GET_ADMINS";
+export const GET_ADMINS_SUCCESS = "GET_ADMINS_SUCCESS";
+export const GET_ADMIN = "GET_ADMIN";
+export const GET_ADMIN_SUCCESS = "GET_ADMIN_SUCCESS";
